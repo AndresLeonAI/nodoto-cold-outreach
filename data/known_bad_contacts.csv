@@ -1,0 +1,9 @@
+email,domain,reason,detection_method,date_detected,source_row
+info@cirujanoplasticobogota.com,cirujanoplasticobogota.com,"554 5.7.1 Relay access denied (servidor mx1.hostinger.co rechaza el mensaje para este buzon especifico)",bounce_monitoring,2026-08-27,8
+administracion@estudioderma.com,estudioderma.com,"550 5.1.1 address not found (buzon no existe)",bounce_monitoring,2026-08-27,61
+Contacto@hygabogados1.com,hygabogados1.com,"Dominio NXDOMAIN - no existe. Error de transcripcion: el dominio real de HyG Abogados es hygabogados.com (sin el 1)",bounce_monitoring,2026-08-27,69
+contactenos@hjimenezabogados.com,hjimenezabogados.com,"550 5.1.1 address not found (buzon no existe)",bounce_monitoring,2026-08-27,72
+drcarolinagilmaxilofacial@gmail.com,gmail.com,"550 5.1.1 address not found (buzon no existe o mal transcrito)",bounce_monitoring,2026-08-28,101
+lonja@lonjadepropiedadraiz.com,lonjadepropiedadraiz.com,"Sin registro MX en el dominio del email (lonjadepropiedadraiz.com) ni en el dominio del sitio web (lonjadepropiedadraiz.com.co) - el dominio no puede recibir correo, envio bloqueado antes de intentarlo",mx_check,2026-08-29,109
+info@dentalinesas.com,dentalinesas.com,"4.4.1 - Gmail agoto los reintentos tras ~72h; el servidor de correo de dentalinesas.com no acepta conexiones (timeout en las 4 IPs/Cloudflare de ese dominio); notificacion final de fallo recibida",bounce_monitoring,2026-08-31,50
+info@ladivinaboda.com,ladivinaboda.com,"4.4.1 - Gmail agoto los reintentos tras ~72h; el servidor de correo de ladivinaboda.com no acepta conexiones (timeout en las 4 IPs/Cloudflare de ese dominio); notificacion final de fallo recibida",bounce_monitoring,2026-08-31,74
