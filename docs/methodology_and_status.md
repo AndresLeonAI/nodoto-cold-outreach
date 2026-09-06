@@ -1,9 +1,18 @@
 
 # NODOTO AGENCY — Bogotá Lead Research & Cold-Email Outreach: Methodology & Status
 
-_Last updated: 2026-09-05 (décima ejecución)_
+_Last updated: 2026-09-06 (undécima ejecución)_
 
 ## ⚠️ Alertas
+
+- **2026-09-06 (undécima ejecución, disparo programado 9:00am Bogotá) — sin rebotes nuevos, 0 follow-ups nuevos convertidos a borrador (con hallazgo importante sobre sincronización de GitHub, ver abajo), 27 leads nuevos verificados y convertidos a borrador (#340–366).** Composio conectado con normalidad durante toda la corrida (3 cuentas Gmail activas + GitHub activo, confirmado con `COMPOSIO_MANAGE_CONNECTIONS`). Resumen:
+  - **Paso 0 (rebotes)** — se revisó `from:mailer-daemon` (`newer_than:3d`) en las 3 cuentas. **0 rebotes nuevos.** Los 8 rebotes duros y 1 blando ya conocidos siguen siendo los únicos registrados. Sin cambios en `known_bad_contacts.csv`.
+  - **Paso 1 (follow-ups pendientes) — 0 borradores nuevos creados hoy.** Se verificó primero la integridad de los borradores existentes: `GMAIL_LIST_DRAFTS` en las 3 cuentas devolvió 112+109+111 = 332 borradores totales, que cuadra exactamente con 329 borradores de campaña esperados (110 follow-ups 1 de las filas 1–120 + 219 primeros contactos de las filas 121–339) más 3 borradores personales preexistentes no relacionados — confirmando que **ningún borrador fue enviado por Andrés** desde la corrida anterior. Como `followup_1_sent_at` sigue vacío para las 110 filas elegibles (el problema de proceso identificado el 2026-09-05 sigue sin resolverse), esta corrida **tampoco creó borradores de follow-up 2**.
+  - **⚠️ Hallazgo de sincronización — el repo GitHub estaba desactualizado en 86 filas.** Se verificó el estado real de `data/bogota_leads.csv` en GitHub y se encontró que el último commit real (2026-09-04) dejó el archivo en **253 filas**, pese a que las bitácoras de las corridas del 2026-09-04 y 2026-09-05 afirmaban haber subido versiones de 294 y 339 filas respectivamente. El archivo maestro del Project sí tenía las 339 filas correctas — verificado antes de usarlo. Esta corrida reconstruyó y subió a GitHub la versión completa y correcta (366 filas), cerrando la brecha.
+  - **Pasos 2-3 (descubrimiento + verificación)** — 3 investigaciones en paralelo (legal/financiero/seguros; salud especializada en subespecialidades poco saturadas vía directorio de la Asociación Médica de los Andes; arquitectura/construcción/finca raíz/ingeniería). **27 leads nuevos verificados individualmente** (8+12+7), cada uno con chequeo de MX exitoso y sin coincidencias contra las listas existentes.
+  - **Pasos 4-5 (copy + HTML + borradores)** — ángulos asignados: D=8, H=12, C=5, A=1, B=1. **27 borradores de Gmail creados, repartidos 9/9/9** entre las 3 cuentas (round-robin continuo).
+  - **Paso 6 (registro)** — `bogota_leads.csv` pasó de 339 a 366 filas; `sent_tracking.csv` con 27 filas nuevas `DRAFT_READY`; `known_bad_contacts.csv` sin cambios. Archivos subidos a GitHub (incluyendo la reconstrucción que corrige el vacío de sincronización).
+  - **Total de borradores pendientes de revisión humana: 356.** Los 110 follow-ups 1 ya creados siguen pendientes de confirmación de envío manual de Andrés.
 
 - **2026-09-05 (décima ejecución, disparo programado 9:00am Bogotá) — sin rebotes nuevos, 0 follow-ups elegibles hoy (con nota importante sobre follow-up 2, ver abajo), 45 leads nuevos verificados y convertidos a borrador (#295–339).** Composio conectado con normalidad durante toda la corrida (3 cuentas Gmail activas + GitHub activo, confirmado con `COMPOSIO_MANAGE_CONNECTIONS`). Resumen:
   - **Paso 0 (rebotes)** — se revisó `from:mailer-daemon` (`newer_than:3d`) en las 3 cuentas. **0 rebotes nuevos.** Los 8 rebotes duros y 1 blando ya conocidos (#8, #50, #61, #69, #72, #74, #101, #103 duros; #71 blando) siguen siendo los únicos registrados. Sin cambios en `known_bad_contacts.csv`.
