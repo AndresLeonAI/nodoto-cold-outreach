@@ -380,7 +380,7 @@ row_number,business_name,recipient_email,gmail_account,gmail_message_id,status,s
 380,Dra. Beatriz Wills — Oncología,BEATRIZ.WILLS@fsfb.org.co,gmail_sleep-acerra,1a07c5009abd3c8e,DRAFT_READY,,,,,r-8397649112968983735,,,
 381,Dr. Lasso — Neumología,lassoapraez@gmail.com,gmail_sleep-acerra,1a07c5005b592647,DRAFT_READY,,,,,r6208936944342001863,,,
 382,PM Abogados,info@pmabogados.co,gmail_sleep-acerra,1a07c4fff65fccf7,DRAFT_READY,,,,,r-2810984477228913588,,,
-383,Dra. Gimena Mejía — Endocrinología,endocrino@doctoragimenamejia.com,gmail_sleep-acerra,1a07c4ffe7aba371,DRAFT_READY,,,,,r6696744810004963785,,,
+383,Dra. Gimena Mejía — Endocrinología,endocrino@doctoragimenamejia.com,gmail_sleep-acerra,1a07c4ffe7aba371,"SOFT_BOUNCE (4.4.1 - servidor doctoragimenamejia.com no acepta conexiones, timeout; envio manual detectado por bounce el 2026-09-19, sent_at exacto desconocido, borrador ya no existe en Gmail)",,,,,r6696744810004963785,,,
 384,Rivas & Asociados Consultores,contacto@rivasyasociados.com.co,gmail_sleep-acerra,1a07c4ffafa1b3d9,DRAFT_READY,,,,,r817086438866472372,,,
 385,Asesorías Registro Sanitario INVIMA,asesoriasregistroinvima@hotmail.com,gmail_sleep-acerra,1a07c4ff452f0629,DRAFT_READY,,,,,r-5510033488561987393,,,
 386,Gerencia de Activos Empresariales & Avalúos YG,gerenciadeactivos@gmail.com,gmail_flame-gliff,1a07c547f2567a1f,DRAFT_READY,,,,,r-411755303871671122,,,
