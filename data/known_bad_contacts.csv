@@ -10,3 +10,23 @@ info@ladivinaboda.com,ladivinaboda.com,"4.4.1 - Gmail agoto los reintentos tras 
 contacto@dermaline.co,dermaline.co,"4.4.1 - Gmail agoto los reintentos tras ~72h; el servidor de correo de dermaline.co no acepta conexiones (timeout), notificacion final de fallo (Delivery Status Notification Failure) recibida 2026-08-31T20:51:18Z, previamente SOFT_BOUNCE desde 2026-08-29",bounce_monitoring,2026-09-01,103
 contacto@rvseguros.co,rvseguros.co,"550 5.1.1 address not found (buzon no existe, envio manual detectado por rebote)",bounce_monitoring,2026-09-16,472
 pedroanibal.m.m@hotmail.com,hotmail.com,"550 5.5.0 mailbox unavailable (buzon no existe, envio manual detectado por rebote)",bounce_monitoring,2026-09-16,479
+servicios@ppmci.com,ppmci.com,"5.1.1 Address not found",bounce_monitoring,2026-09-23,363
+caforeabogados@gmail.com,gmail.com,"5.1.1 Address not found",bounce_monitoring,2026-09-23,342
+legalityasesores@gmail.com,gmail.com,"5.1.1 Address not found",bounce_monitoring,2026-09-23,234
+gestion@integridadeinterventorias.com.co,integridadeinterventorias.com.co,"5.7.1 Relay access denied",bounce_monitoring,2026-09-23,210
+contacto@doctorosorio.com,doctorosorio.com,"5.7.1 Relay access denied",bounce_monitoring,2026-09-23,163
+arquitectosdcm@gmail.com,gmail.com,"5.1.1 Address not found",bounce_monitoring,2026-09-23,139
+cuentauniversitariadjpadilla@gmail.com,gmail.com,"5.1.1 Address not found",bounce_monitoring,2026-09-23,389
+info@ingeprol.com,ingeprol.com,"5.1.3 Address not found",bounce_monitoring,2026-09-23,485
+rrrefrigeracionsas@gmail.com,gmail.com,"5.1.1 Address not found",bounce_monitoring,2026-09-23,460
+info@countgroupsas.com,countgroupsas.com,"5.1.1 Address not found",bounce_monitoring,2026-09-23,433
+clinicadedoloraliviarteco@gmail.com,gmail.com,"5.1.1 Address not found",bounce_monitoring,2026-09-23,268
+chechon00@hotmail.com,hotmail.com,"5.5.0 Address not found",bounce_monitoring,2026-09-23,247
+contacto@gestionesinmobiliarias.com,gestionesinmobiliarias.com,"5.1.3 Address not found",bounce_monitoring,2026-09-23,214
+constructorabogota@gmail.com,gmail.com,"5.1.1 Address not found",bounce_monitoring,2026-09-23,140
+vyvprocom@gmail.com,gmail.com,"5.1.1 Address not found",bounce_monitoring,2026-09-23,275
+contacto@ginecologacristinahiguera.com,ginecologacristinahiguera.com,"5.1.1 Address not found",bounce_monitoring,2026-09-23,498
+odontologia6estica.jireh@gmail.com,gmail.com,"5.1.1 Address not found",bounce_monitoring,2026-09-23,455
+gerenciarelacioncliente@cpbroker.co,cpbroker.co,"5.4.1 blocked **",bounce_monitoring,2026-09-23,344
+info@acerteqabogados.com,acerteqabogados.com,"5.1.1 Address not found",bounce_monitoring,2026-09-23,302
+contacto@simae.com.co,simae.com.co,"5.1.1 Address not found",bounce_monitoring,2026-09-23,248
