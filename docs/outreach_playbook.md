@@ -546,7 +546,7 @@ Evitar asuntos genéricos de venta.
 Utilizar exactamente:
 
 ```text
-https://cal.com/tu-clinica-agenda/30min
+https://cal.com/tu-clinica-agenda/diagnostico-web
 ```
 
 No modificar esta URL salvo instrucción explícita del usuario.
@@ -562,7 +562,7 @@ Utilizar esta estructura:
 ```python
 import html
 
-CAL_URL = "https://cal.com/tu-clinica-agenda/30min"
+CAL_URL = "https://cal.com/tu-clinica-agenda/diagnostico-web"
 
 def render_html(plain_text_body: str) -> str:
     paragraphs = [
@@ -616,7 +616,7 @@ style="max-width:600px;background-color:#ffffff;border-radius:8px;overflow:hidde
 target="_blank"
 style="display:inline-block;background-color:#18181b;color:#ffffff;text-decoration:none;font-size:14px;font-weight:600;padding:13px 26px;border-radius:6px;">
 
-Ver la idea que preparé &rarr;
+Agendar mi diagnóstico gratuito (20 min) &rarr;
 
 </a>
 
@@ -651,6 +651,26 @@ Este correo fue enviado porque identificamos su negocio como un posible caso de 
 Un único CTA por correo.
 
 ---
+
+# 16B. REGLAS DE COPY v2 (2026-09-24, instrucción de Andrés — OBLIGATORIAS)
+
+* **Nunca usar la palabra "sitio".** En Bogotá se dice **"página web"** o **"su web"**. Aplica a asuntos, cuerpo y CTA.
+* Posicionamiento fijo en el párrafo de propuesta de valor: **"En NODOTO somos especialistas en diseño web de alta conversión: creamos páginas web que convierten visitas en citas y clientes, resolviendo exactamente [problema observado]."**
+* CTA de texto (párrafo 5) debe ser concreto, nunca "¿te mando la idea?". Formato: **"¿Le sirve una videollamada de 20 minutos por Google Meet esta semana? Le muestro en pantalla los 3 puntos donde su página web hoy pierde clientes y cómo lo resolvería."**
+* Botón único: **"Agendar mi diagnóstico gratuito (20 min) →"** → `https://cal.com/tu-clinica-agenda/diagnostico-web` (Google Meet, pide celular/WhatsApp, empresa, cargo y objetivo).
+* Asuntos sugeridos: "Una idea para la página web de [Negocio]", "Un detalle en su página web", "[Negocio]: clientes que se pierden en su web".
+
+# 16C. ENTREGABILIDAD Y TOMADORES DE DECISIÓN (2026-09-24)
+
+Objetivo: que el correo llegue a la bandeja principal de una persona real que decide.
+
+1. **Prioridad de destinatario:** (a) email nominal del dueño/gerente/socio publicado (ej. `nombre@dominio`, firma en LinkedIn/Cámara de Comercio/web "equipo"); (b) email del profesional titular (médico, abogado); (c) solo si no existe, `info@`/`contacto@`. Registrar el nombre del decisor y saludarlo por su nombre.
+2. **Descartar antes de redactar:** emails de directorios sin confirmar en fuente propia; `@gmail/@hotmail` que no aparezcan en la web o perfil oficial del negocio; dominios sin MX; buzones `noreply`, `facturacion`, `rrhh`, `pqrs`.
+3. **Chequeo técnico por lead:** MX válido + (si es dominio propio) registro SPF presente. Si la web está caída > descartar.
+4. **Volumen seguro:** máximo 30–40 primeros contactos por cuenta Gmail por día, espaciados (lotes de 10 cada 30–60 min). Nunca un envío masivo nocturno de cientos.
+5. **Formato anti-spam:** un solo enlace (el botón), sin imágenes, sin adjuntos, asunto sin mayúsculas ni signos de exclamación.
+6. **Umbral de alerta:** si los rebotes de un lote superan 3%, detener envíos de ese día y revisar la calidad de las fuentes.
+7. **Respuestas:** "no me interesa" / "no me contacten" → `OPTED_OUT` inmediato; respuestas con teléfono o "llámeme" → `RESPONDED` + alerta a Andrés para contacto humano.
 
 # 17. POLÍTICA DE BORRADORES
 
